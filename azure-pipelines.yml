@@ -11,4 +11,5 @@ steps:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
-python -mhtmllib "ang.html"
+    
+script: python -mhtmllib "ang.html"
